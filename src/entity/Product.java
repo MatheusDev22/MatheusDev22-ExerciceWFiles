@@ -30,4 +30,8 @@ public class Product {
 	public int getQuantity() {
 		return quantity;
 	}
+	
+	public double total() {
+		return price * quantity;
+	}
 }
